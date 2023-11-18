@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "ts-node": {
+    "transpileOnly": true
+  },
+  "include": [
+    "./src/**/*.ts"
+  ],
+  "compilerOptions": {
+    "jsx": "react-native"
+  },
+}
